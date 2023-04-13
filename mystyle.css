@@ -3,7 +3,7 @@
 :root {
     --purple: #5E3BEE;
     --black: #282938;
-    --white: #F5FCFF;
+    --light: #F5FCFF;
     --pink: #E62872;
     --dark: #1C1E53;
 }
@@ -13,12 +13,14 @@
     font-style: normal;
 }
 
+
+/* Navigation */
 .nav_div {
     display: flex;
     padding: 0px 64px;
     align-self: center;
     position: relative;
-    width: 1440px;
+    height: 90px;
 }
 
 nav {
@@ -50,11 +52,70 @@ a {
     color: var(--purple);
 }
 
-nav > button {
+.white_btn {
     background-color: white;
     color: var(--purple);
     border: 1px solid var(--purple);
     border-radius: 4px;
     height: 52px;
     width: 128px;
+}
+
+.purple_btn {
+    background-color: var(--purple);
+    color: white;
+    border: 1px solid var(--purple);
+    border-radius: 4px;
+    height: 52px;
+    width: 128px;
+}
+
+/* Home */
+.home_div {
+    /* padding: 133.333px 85.3333px; Myb van */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--light);
+}
+
+#side_text_home {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    color: var(--black);
+}
+
+#home_pic {
+    flex: none;
+    order: 1;
+    width: 50%;
+    padding: 126px;
+    padding-right: 50px;
+    padding-left: 00px;
+}
+
+#john {
+    margin-top: 33%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bigger_font {
+    font-weight: bold;
+    font-size: 83px;
+    line-height: 100px;
+}
+
+#latin_for_no_reason {
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+#touch {
+    margin-top: 50px;
 }
