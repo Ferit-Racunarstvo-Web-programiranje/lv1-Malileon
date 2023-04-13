@@ -119,3 +119,65 @@ a {
 #touch {
     margin-top: 50px;
 }
+
+/* Portfolio */
+#personal_skills {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+.portfolio_div {
+    display: flex;
+    flex-direction: column;
+}
+
+#actual_skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.expertise_font {
+    font-weight: bold;
+    font-size: 95px;
+    margin-top: 5px;
+    line-height: 110px;
+    margin-left: 45px;
+    margin-bottom: 100px;
+}
+
+#first_skill {
+    border-bottom: 4px solid #5E3BEE;
+}
+
+span.skill_container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+    display: flex;
+    width: 20%;
+    border-radius: 10.6667px;
+}
+
+.expertise_img {
+    width: 10%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.expertise_title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.expertise_text {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
