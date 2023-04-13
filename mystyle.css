@@ -107,7 +107,7 @@ a {
     line-height: 100px;
 }
 
-#latin_for_no_reason {
+.latin_for_no_reason {
     font-size: 23px;
     line-height: 35px;
 }
@@ -180,4 +180,45 @@ span.skill_container {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 25px;
+}
+
+/* About */
+#about_div {
+    margin-top: 100px;
+    display: flex;
+}
+
+#about_img {
+    flex: none;
+    order: 0;
+    width: 40%;
+    padding-left: 45px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#side_text_about {
+    padding-top: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_mini {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+#about_big {
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 110px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#long_latin {
+    margin-top: -60px;
+    margin-left: 200px;
 }
