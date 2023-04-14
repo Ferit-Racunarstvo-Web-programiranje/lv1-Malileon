@@ -491,3 +491,40 @@ span.skill_container {
     display: flex;
     justify-content: center;
 }
+
+/* Footer */
+#footer_div {
+    background-color: var(--light);
+    padding: 75px 64px;
+    align-self: center;
+}
+
+#footer_first_row {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer_links {
+    display: flex;
+    gap: 32px;
+}
+
+#footer_pic {
+    width: 30px;
+    padding-left: 15px;
+}
+
+#footer_second_row {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fright {
+    display: flex;
+    gap: 32px;
+}
