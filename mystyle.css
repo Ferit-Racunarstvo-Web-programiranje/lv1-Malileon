@@ -360,7 +360,6 @@ span.skill_container {
 
 #latin_for_no_reason_review {
     font-size: 18px;
-    font-weight: bold;
     margin-bottom: 40px;
 }
 
@@ -378,9 +377,6 @@ span.skill_container {
     margin-top: 15px;
 }
 
-#feedback_name {
-}
-
 #feedback_name{
     font-weight: bold;
 }
@@ -388,4 +384,110 @@ span.skill_container {
 #feedback_company {
     display: flex;
     margin-top: 5px;
+}
+
+/* Contact */
+#contact_div {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#contact_span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact_touch {
+    font-size: 18px;
+}
+
+#contact_title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#contact_latin {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#center-span {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#contact_names {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact_contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.contact_boxes {
+    margin-top: 10px;
+    height: 40px;
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 8px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+#fake_dropdown::placeholder {
+    font-size: 18px;
+    color: black;
+    background-image: url("images//Vector (1).png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-right: 8px;
+    background-size: 2%;
+    background-position-y: 3px;
+}
+
+#contact_topic {
+    display: flex;
+    width: 95%;
+    margin-left: 25px;
+    justify-content: center;
+}
+
+#contact_message {
+    display: flex;
+    width: 95%;
+    margin-left: 25px;
+    justify-content: center;
+}
+
+#message {
+    font-size: 18px;
+    display: flex;
+    position: relative;
+    padding-bottom: 190px;
+}
+
+#contact_terms {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#submit_btn_span {
+    display: flex;
+    justify-content: center;
 }
