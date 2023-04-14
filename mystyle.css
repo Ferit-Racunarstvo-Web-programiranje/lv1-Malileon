@@ -120,7 +120,7 @@ a {
     margin-top: 50px;
 }
 
-/* Portfolio */
+/* Skills */
 #personal_skills {
     margin-top: 100px;
     font-weight: bold;
@@ -221,4 +221,95 @@ span.skill_container {
 #long_latin {
     margin-top: -60px;
     margin-left: 200px;
+}
+
+/* Portfolio */
+#recent_projects_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#recent_mini{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+#recent_big{
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 110px;
+    margin-left: 45px;
+    margin-bottom: 100px;
+    margin-top: -60px;
+}
+
+#dribble_pink{
+    display: flex;
+    float: right;
+    width: 20%;
+    background-color: var(--pink);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10.6667px;
+    align-self: flex-end;
+    margin-right: 75px;
+}
+
+#social_ball{
+    width: 50px;
+    margin-right: 20px;
+}
+
+#portfolio_container{
+    margin-left: 10px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio_single{
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio_img{
+    width: 100%;
+}
+
+.portfolio_title{
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.latin_for_no_reason_smaller {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+#dribble_btn {
+    font-weight: bold;
+    font-size: 16px;
+    width: 25%;
+    border-bottom: 1.33333px solid var(--purple);
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#arrow_dribble {
+    margin-left: 10px;
 }
